@@ -5,8 +5,7 @@ function NavBar(){
     return(<nav
         className ="navbar navbar-dark bg-dark NavBarContainer navbar-expand-sm h4 border-1 border-bottom ps-0 pe-0 mb-0 ms-0 me-0"
       >
-        <div className ="container-fluid">
-          <a href="index.html" className="navbar-brand text-white">SET8JAMS</a>
+        <div className ="container-fluid justify-content-center">
           <button
             className ="navbar-toggler"
             type="button"
@@ -19,7 +18,7 @@ function NavBar(){
             <span className ="navbar-toggler-icon"></span>
           </button>
   
-          <div className ="collapse navbar-collapse" id="main-nav">
+          <div className ="collapse navbar-collapse flex-grow-0" id="main-nav" >
             <ul className ="navbar-nav">
               <li className ="nav-item">
                 <a className ="nav-link text-white" href="index.html">Home</a>

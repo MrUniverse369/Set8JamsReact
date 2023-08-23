@@ -1,0 +1,9 @@
+html{
+    background-color: #0d0700;
+}
+
+.TrueNatureContainer,.GalacticCrusadeContainer,.NavBarContainer, .CurrentStateandUpdates, .GameMedia{
+    background-color: #0d0700;
+    font-family:  'Mada', sans-serif;
+}
+
